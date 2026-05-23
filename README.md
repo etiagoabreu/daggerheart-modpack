@@ -30,7 +30,7 @@ https://github.com/etiagoabreu/daggerheart-modpack/releases/latest/download/modu
 ## Compatibility
 
 | Component | Version | Author |
-|---|---|
+|---|---| --- |
 | FoundryVTT | v13 | FoundryVTT |
 | Foundryborne | v2.2.1 | Foundryborne |
 | Dice So Nice! | 5.3.4 | JDW |
