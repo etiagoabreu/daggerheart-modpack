@@ -1,0 +1,90 @@
+{
+  "id": "daggerheart-modpack",
+  "title": "Modpack: I Love Daggerheart",
+  "description": "The First and Best Modpack for Daggerheart.",
+      "version": "0.0.1",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Tiago Abreu",
+      "email": "etiagoabreu@gmail.com",
+      "discord": "",
+      "flags": {}
+	}
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "daggerheart",
+        "manifest": "https://github.com/Foundryborne/daggerheart/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "1.0.0",
+          "verified": "1.0.5"
+        },
+        "type": "system"
+      }
+    ],
+	"requires": [
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/5.3.4/module/module.json",
+        "compatibility": {
+          "minimum": "5.3.4",
+          "verified": "2"
+        }
+      },
+      {
+        "id": "duality-roller",
+        "type": "module",
+        "manifest": "https://git.geeks.gay/cosmo/DualityDiceRoller/raw/branch/main/module.json",
+        "compatibility": {
+          "minimum": "1.2.0",
+          "verified": "2"
+        }
+      },
+      {
+        "id": "art-for-daggerheart",
+        "type": "module",
+        "manifest": "https://github.com/mordachai/art-for-daggerheart/releases/latest/download/module.json",
+        "compatibility": {
+          "minimum": "1.1.4",
+          "verified": "2"
+        }
+      },
+      {
+        "id": "daggerheart-hud",
+        "type": "module",
+        "manifest": "https://github.com/mordachai/daggerheart-hud/releases/latest/download/module.json",
+        "compatibility": {
+          "minimum": "0.1.7",
+          "verified": "2"
+        }
+      },
+      {
+        "id": "daggerheart-distances",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/brunocalado/daggerheart-distances/main/module.json",
+        "compatibility": {
+          "minimum": "0.1.7",
+          "verified": "2"
+        }
+      },
+      {
+        "id": "daggerheart-critical",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/brunocalado/daggerheart-critical/refs/heads/main/module.json",
+        "compatibility": {
+          "minimum": "0.1.7",
+          "verified": "2"
+        }
+      }
+    ]
+  },
+  "url": "https://github.com/etiagoabreu/daggerheart-modpack",
+  "manifest": "https://github.com/etiagoabreu/daggerheart-modpack/releases/latest/download/module.json",
+  "download": "https://github.com/etiagoabreu/daggerheart-modpack/releases/latest/download/daggerheart-modpack-v0.0.1.zip"
+}
